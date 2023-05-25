@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCCharts",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-1.0.0-beta+20230525135158.xcframework.zip",
-			checksum: "7e4fdb6b4b675b4af2b41efbd1625daee17ed3137adbf149d2c1d052e9f4e036"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-1.0.0-beta+20230525143554.xcframework.zip",
+			checksum: "cdedccd28ae7495ed6333ce1d0ebde1a068ad225d4fe1415ab4aee1585cfca56"
 		)
 	]
 )
