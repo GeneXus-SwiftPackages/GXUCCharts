@@ -10,9 +10,9 @@ let package = Package(
 			targets: ["GXUCChartsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.0.0-beta.20230717155910"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.0.0-beta.20230717155910"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "1.0.0-beta.20230717155910")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.0.0-beta.20230717172207"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.0.0-beta.20230717172207"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "1.0.0-beta.20230717172207")
 	],
 	targets: [
 		.target(name: "GXUCChartsWrapper",
@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCCharts",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-1.0.0-beta.20230717155910.xcframework.zip",
-			checksum: "7c5a336e8b593dafe12d4f2fdd3c5e513404006b40de3badd1dc00e005c44793"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-1.0.0-beta.20230717172207.xcframework.zip",
+			checksum: "630d9d3addaf221e694f8e96dc83a724427ecfe67419ebc9eaa5fe11c24206b7"
 		)
 	]
 )
