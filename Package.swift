@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.7
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXUCChartsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.6.0-beta.3")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.6.0-beta.4")
 	],
 	targets: [
 		.target(name: "GXUCChartsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCCharts",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-1.6.0-beta.3.xcframework.zip",
-			checksum: "d6171a795f927f8562d8ca1ec446350e4eb6c23a5be2ca31f0cc473cd8ce8fc5"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-1.6.0-beta.4.xcframework.zip",
+			checksum: "49a75d85bd153fd821c0ce384d1878bc3be5da977a32b8b897cca6e5b66515e6"
 		)
 	]
 )
