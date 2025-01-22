@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXUCCharts",
-	platforms: [.iOS("13.0")],
+	platforms: [.iOS("15.0")],
 	products: [
 		.library(
 			name: "GXUCCharts",
 			targets: ["GXUCChartsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.9")
 	],
 	targets: [
 		.target(name: "GXUCChartsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCCharts",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-3.0.0-beta.8.xcframework.zip",
-			checksum: "5b7b88aa769b0f23ac7426ec65ccbb115b7e5d0ec3af87a3c4463dd4e8cf4155"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCCharts-3.0.0-beta.9.xcframework.zip",
+			checksum: "161373349a3c24e6df35806b733dbfa88e91ff05e54d70c4665e57a3493de07c"
 		)
 	]
 )
